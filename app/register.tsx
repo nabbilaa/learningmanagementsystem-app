@@ -33,11 +33,13 @@ export default function Register() {
         style={styles.input}
       />
 
-      <TouchableOpacity style={styles.button}>
-        <Text style={styles.buttonText}>
-          Register
-        </Text>
-      </TouchableOpacity>
+          <Link href="/" asChild>
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.buttonText}>
+            Register
+          </Text>
+        </TouchableOpacity>
+      </Link>
 
       <View style={styles.footer}>
         <Text>Sudah punya akun? </Text>
