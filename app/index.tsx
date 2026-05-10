@@ -27,7 +27,7 @@ export default function Index() {
         style={styles.input}
       />
 
-      <Link href="/tabs/home" asChild>
+      <Link href= "/(tabs)" asChild>
         <TouchableOpacity style={styles.button}>
           <Text style={styles.buttonText}>
             Login

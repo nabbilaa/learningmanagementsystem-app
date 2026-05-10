@@ -16,7 +16,6 @@ export default function TabsLayout() {
         },
       }}
     >
-      {/* HOME */}
       <Tabs.Screen
         name="index"
         options={{
@@ -32,7 +31,6 @@ export default function TabsLayout() {
         }}
       />
 
-      {/* COURSE */}
       <Tabs.Screen
         name="course"
         options={{
@@ -48,7 +46,6 @@ export default function TabsLayout() {
         }}
       />
 
-      {/* NOTIF */}
       <Tabs.Screen
         name="notif"
         options={{
@@ -64,7 +61,6 @@ export default function TabsLayout() {
         }}
       />
 
-      {/* PROFILE */}
       <Tabs.Screen
         name="profile"
         options={{

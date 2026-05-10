@@ -17,33 +17,28 @@ export default function Register() {
         Daftar untuk mulai belajar 🚀
       </Text>
 
-      {/* Full Name */}
       <TextInput
         placeholder="Full Name"
         style={styles.input}
       />
 
-      {/* Email */}
       <TextInput
         placeholder="Email"
         style={styles.input}
       />
 
-      {/* Password */}
       <TextInput
         placeholder="Password"
         secureTextEntry
         style={styles.input}
       />
 
-      {/* Button */}
       <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>
           Register
         </Text>
       </TouchableOpacity>
 
-      {/* Login Link */}
       <View style={styles.footer}>
         <Text>Sudah punya akun? </Text>
 
